@@ -1,0 +1,13 @@
+[package]
+name = "yolo"
+version = "0.1.0"
+edition = "2024"
+description = "The World's First Vibe Coding Focused Programming Language"
+license = "MIT"
+
+[[bin]]
+name = "yolo"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
